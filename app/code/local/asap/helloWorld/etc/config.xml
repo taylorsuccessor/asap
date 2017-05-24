@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <asap_helloworld>
+            <version>0.1.0</version>
+        </asap_helloworld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>asap_helloworld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+    <admin>
+        <routers>
+            <helloworld>
+                <use>admin</use>
+                <args>
+                    <module>asap_helloworld</module>
+                    <frontName>admin_helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </admin>
+</config>

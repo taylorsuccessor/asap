@@ -1,0 +1,299 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		z-index:9999;
+		overflow:hidden;
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top:7% !important;
+		left: 50%;
+		margin-left: -375px;
+		width: 750px;
+		background: #FFF no-repeat -200px -80px;
+		position:fixed;
+		z-index:10000;
+		padding:25px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		height:550px;
+		
+
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		width:21px; height:21px; background-image:url(../images/close1.png); background-position:left top; background-repeat:no-repeat;
+		}
+		
+		
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/
+	
+	/*login popup css*/
+	
+	
+	.reveal-modal2-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		z-index:9999;
+		overflow:hidden;
+		
+		}
+	
+	.reveal-modal2 {
+		visibility: hidden;
+		top:17% !important;
+		left: 50%;
+		margin-left: -299px;
+		width: 600px;
+		background: #FFF no-repeat -200px -80px;
+		position:fixed;
+		z-index:10000;
+		padding:30px 35px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		border-radius:0px;
+		
+
+		}
+		
+	.reveal-modal2.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal2.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal2.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal2.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal2 .close-reveal-modal {
+		position: absolute;
+		top: 2px;
+		right: 2px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		background: url('../images/sprite.png') no-repeat -13px -778px;
+		width:26px; height:26px;
+		}
+	
+	
+	/*login popup css*/
+	
+	
+	
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		z-index:9999;
+		overflow:hidden;
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top:7% !important;
+		left: 50%;
+		margin-left: -375px;
+		width: 750px;
+		background: #FFF no-repeat -200px -80px;
+		position:fixed;
+		z-index:10000;
+		padding:25px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		height:550px;
+		
+
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		width:21px; height:21px; background-image:url(../images/close1.png); background-position:left top; background-repeat:no-repeat;
+		}
+		
+		
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/
+	
+	/*login popup css*/
+	
+	
+	.reveal-modal3-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		z-index:9999;
+		overflow:hidden;
+		}
+	
+	.reveal-modal3 {
+		visibility: hidden;
+		top:11% !important;
+		left: 50%;
+		margin-left: -450px;
+		width: 900px;
+		background: #FFF no-repeat -200px -80px;
+		position:fixed;
+		z-index:10000;
+		padding:25px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		
+
+		}
+
+	
+	.reveal-modal3 .close-reveal-modal {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		background: url('../images/sprite2.png') no-repeat -18px -504px;
+		width:24px; height:24px;
+		}
+		
+	
+	
+@media only screen and (max-width:991px){	
+
+	.reveal-modal3{ width:700px; margin-left:-340px;}
+
+}
+	
+@media only screen and (max-width:768px){
+	.reveal-modal2	{ top:12% !important;}
+	
+}
+	
+@media only screen and (max-width:768px){
+	.reveal-modal{ width:94%; left:4%; margin-left:0px;}
+	.rvv_pop{ width:98%;}		
+		
+}
+
+@media only screen and (max-width:767px){
+	.reveal-modal3{ position:absolute;}
+	
+}
+
+@media only screen and (max-width:668px){
+
+	.reveal-modal{ position:absolute !important; top:auto !important; margin-top:10% !important; }
+	.reveal-modal2{ top:0% !important; position:absolute !important; margin-top:3% !important;}
+	.reveal-modal3{ width:90%; margin-left:0px; left:5%; top:5% !important; position:absolute;}
+	
+	
+}
+
+@media only screen and (max-width:568px){
+	.reveal-modal2{ width:90%; left:5%; margin-left:0px; top:0% !important; margin-top:10% !important; }
+	
+}
+@media only screen and (max-width:414px){
+.reveal-modal2{ padding:25px;}
+
+}
+
+@media only screen and (max-width:380px){
+	.reveal-modal2{ position:fixed !important;}
+	
+}

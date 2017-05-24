@@ -1,0 +1,47 @@
+/*!
+ * jQuery simple gallery Plugin 1.1.0
+ *
+ * http://fernandomoreiraweb.com/
+ *
+ * Copyright 2013 Fernando Moreira
+ * Released under the MIT license:
+ *   http://mit.fernandomoreiraweb.com/
+ */.simplegallery{margin:0 auto; width:100%px;height:auto; }.simplegallery .content{background:#ececea;position:relative;width:100%;height:auto;overflow:hidden}
+ simplegallery .content{ background-color:#ececea;}
+.simplegallery .content img{width:100%; max-height:340px; }
+.simplegallery .thumbnail{ float:left; width:112%; margin-left:-15px; background-color:#404040; padding:13px 50px;}
+.bestsllrss .simplegallery .thumbnail{ background-color:rgba(64,64,64,0.5);  padding: 10px 50px;}
+
+
+
+.simplegallery .thumbnail .thumb{float:left; width:49px; height:auto;margin:0px 6px 0px;cursor:pointer}
+.simplegallery .thumbnail .thumb img{width:60px;  height:70px;}
+.simplegallery .thumbnail .last{margin:0}
+
+@media only screen and (max-width:1200px){
+	.simplegallery .thumbnail .thumb{ margin:0px 1% 0px; width:30%;}
+}
+
+/*@media only screen and (max-width:992px){
+	.simplegallery .thumbnail .thumb{ margin:0px 1px 0px; width:50px;}
+
+
+}
+
+@media only screen and (max-width:645px){
+	.simplegallery .thumbnail .thumb{ margin:0px 7px 0px;}
+
+
+}
+@media only screen and (max-width:568px){
+	.simplegallery .thumbnail .thumb{ margin:0px 1px 0px;}
+
+}
+
+
+@media only screen and (max-width:414px){
+	.simplegallery .thumbnail .thumb{ margin:0px 1px 0px; width:32%;}
+
+
+}
+*/

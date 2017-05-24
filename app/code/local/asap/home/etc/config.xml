@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <asap_home>
+            <version>0.1.0</version>
+        </asap_home>
+    </modules>
+    <frontend>
+        <routers>
+            <home>
+                <use>standard</use>
+                <args>
+                    <module>asap_home</module>
+                    <frontName>home</frontName>
+                </args>
+            </home>
+        </routers>
+    </frontend>
+    <admin>
+        <routers>
+            <home2>
+                <use>admin</use>
+                <args>
+                    <module>asap_home</module>
+                    <frontName>admin_home</frontName>
+                </args>
+            </home2>
+        </routers>
+    </admin>
+</config>

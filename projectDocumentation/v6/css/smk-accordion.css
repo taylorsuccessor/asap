@@ -1,0 +1,157 @@
+.smk_accordion {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+/**
+ * --------------------------------------------------------------
+ * Section
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in {
+  position: relative;
+  z-index: 10;
+  margin-top: -1px;
+  overflow: hidden;
+  border-bottom:1px solid #ebebeb;
+}
+.smk_accordion .accordion_in:last-child{ border-bottom:none;}
+
+
+/**
+ * --------------------------------------------------------------
+ * Head
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in .acc_head {
+  position: relative;
+  padding: 9px 10px 10px;
+  font-size: 13px;
+  display: block;
+  cursor: pointer;
+}
+
+.accordion_example2 .accordion_in{
+	border-bottom-color:#f2f2f2;
+	
+}
+.accordion_example2 .accordion_in .acc_head{
+	font-size:14px !important;
+	font-family: 'open_sanssemibold';
+	padding:18px 0px 18px 33px;
+
+	
+}
+
+.smk_accordion .accordion_in .acc_head .acc_icon_expand {
+  display: block;
+  width: 12px;
+  height: 18px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -9px;
+  background: url(../images/plusminus.png) center 0;
+}
+
+.accordion_example2 .accordion_in .acc_head .acc_icon_expand {
+  display: block;
+  width: 10px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-top: -9px;
+  background: url(../images/plusminus2.png) center 0;
+}
+
+
+/**
+ * --------------------------------------------------------------
+ * Content
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in .acc_content {
+
+  color: #333;
+  padding: 3px 10px;
+  border-top:1px solid #ebebeb;
+}
+
+.accordion_example2 .accordion_in .acc_content {
+
+  color: #333;
+  padding: 0px 10px 0px 0px;
+  border-top:none;
+  line-height:22px;
+}
+.accordion_example2 .accordion_in .acc_content p{ line-height:21px;}
+.accordion_example2 .accordion_in .acc_content p span{ color:#cc0000; font-family: 'open_sansitalic'; font-size:14px; padding-left:4px;}
+.accordion_example2 .accordion_in .acc_content p strong{ color:#cc0000; font-family: 'open_sanssemibold';  font-size:14px; font-weight:normal;}
+
+
+.smk_accordion .accordion_in .acc_content h1:first-of-type,
+.smk_accordion .accordion_in .acc_content h2:first-of-type,
+.smk_accordion .accordion_in .acc_content h3:first-of-type,
+.smk_accordion .accordion_in .acc_content h4:first-of-type,
+.smk_accordion .accordion_in .acc_content h5:first-of-type,
+.smk_accordion .accordion_in .acc_content h6:first-of-type {
+  margin-top: 5px;
+}
+/**
+ * --------------------------------------------------------------
+ * General
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in:first-of-type,
+.smk_accordion .accordion_in:first-of-type .acc_head {
+
+}
+.smk_accordion .accordion_in:last-of-type,
+.smk_accordion .accordion_in:last-of-type .acc_content {
+
+}
+.smk_accordion .accordion_in.acc_active > .acc_content {
+  display: block;
+}
+.smk_accordion .accordion_in.acc_active > .acc_head {
+  color:#cc0000; text-decoration:none;
+}
+
+.accordion_example2 .accordion_in.acc_active > .acc_head {
+  color:#333; text-decoration:none;
+}
+
+
+.smk_accordion .accordion_in.acc_active > .acc_head .acc_icon_expand {
+  background: url(../images/plusminus.png) center -18px;
+}
+
+.accordion_example2 .accordion_in.acc_active > .acc_head .acc_icon_expand {
+  background: url(../images/plusminus2.png) center -18px;
+}
+
+.smk_accordion.acc_with_icon .accordion_in .acc_head
+ {
+  padding-left: 35px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 14px;
+	background-color: #f2f2f0;
+	
+	
+	
+}
+.smk_accordion.acc_with_icon .accordion_in .acc_content{ padding-left: 15px; }
+
+
+
+@media only screen and (max-width:380px){
+.accordion_example2 .accordion_in .acc_head{ font-size:13px !important;}
+
+
+}

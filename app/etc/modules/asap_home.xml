@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <asap_home>
+      <active>true</active>
+      <codePool>local</codePool>
+    </asap_home>
+  </modules>
+</config>
